@@ -1,1 +1,156 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f7f7f7;
+    }
+
+    .profile-container {
+      display: flex;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      padding: 20px;
+    }
+
+    .left-section {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+    }
+
+    .right-section {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .profile-pic {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .info p {
+      margin: 8px 0;
+    }
+
+    h3 {
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      margin-top: 20px;
+      padding-bottom: 4px;
+    }
+
+    .skill {
+      margin: 15px 0;
+    }
+
+    .skill p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .progress {
+      width: 100%;
+      background: #eaeaea;
+      border-radius: 4px;
+      overflow: hidden;
+      height: 22px;
+    }
+
+    .bar {
+      height: 100%;
+      background: #007bff;
+      color: white;
+      text-align: right;
+      padding-right: 5px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+
+      <div class="info">
+        <p><strong>Name:</strong> Shubham Bhola</p>
+        <p><strong>Profile:</strong> Software Developer</p>
+        <p><strong>Email:</strong> abcdef796@gmail.com</p>
+      </div>
+
+      <h3>Skills</h3>
+
+      <!-- Skill 1 -->
+      <div class="skill">
+        <p><i class="fa-brands fa-react"></i> React 
+           <i class="fa-brands fa-css3-alt"></i> CSS 
+           <i class="fa-brands fa-js-square"></i> JavaScript</p>
+        <div class="progress">
+          <div class="bar" style="width:95%">95%</div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="skill">
+        <p><i class="fa-brands fa-node"></i> NodeJS 
+           <i class="fa-solid fa-database"></i> MongoDB</p>
+        <div class="progress">
+          <div class="bar" style="width:90%">90%</div>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="skill">
+        <p><i class="fa-solid fa-code"></i> C/C++ 
+           <i class="fa-brands fa-python"></i> Python 
+           <i class="fa-solid fa-terminal"></i> Batch</p>
+        <div class="progress">
+          <div class="bar" style="width:99%">99%</div>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="skill">
+        <p><i class="fa-brands fa-aws"></i> AWS 
+           <i class="fa-solid fa-network-wired"></i> Hadoop</p>
+        <div class="progress">
+          <div class="bar" style="width:93%">93%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <h3>About me</h3>
+      <p>
+        I am a Self-starter with a passion to adapt and evangelise new technologies. 
+        I have a passion for software development with a diverse skillset ranging from the MERN stack 
+        to a stronghold on data structures and algorithms. I like to tackle complex challenges head-on 
+        to deliver technically sound solutions with optimum efficiency.
+      </p>
+      <p>
+        I believe that magic is possible with a blend of imagination, hard-work and passion. 
+        Most of all, I believe in determination and honest efforts to enhance my skills 
+        in order to contribute to the growth of society.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
